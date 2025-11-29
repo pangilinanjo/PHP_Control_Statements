@@ -59,7 +59,7 @@ td {
 }
 
 a {
-  color: #fbccbf;
+  color: #ffa8eb;
   letter-spacing: 1px;
   font-weight: 600;
   font-style: normal;
@@ -68,7 +68,7 @@ a {
 
 nav {
   padding: 0.5em;
-  background-color: #730720;
+  background-color:  #b73370;
 }
 
 nav a {
@@ -114,9 +114,16 @@ nav a:hover {
 }
 
 footer {
-  background-color: #730720;
-  padding: 10px;
+  background-color: #b73370;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 15px;
   width: 100%;
   position: fixed;
   bottom: 0;
+  left: 0;
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  border-top: 2px solid #ffa8eb;
 }
