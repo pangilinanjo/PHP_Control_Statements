@@ -1,13 +1,13 @@
 <?php 
-// Type juggling example using flower store data
-$item = 'Roses';
-$stock = 30;
-$wanted = '3'; // string
-$deliver = true; 
-$price = '26'; // string
-$final_price = $price + true; // true = 1 = 27
-$check = '0';
-$is_valid = (bool)$check; // false
+    // Type juggling example using flower store data
+    $item = 'Roses';
+    $stock = 30;
+    $wanted = '3'; // string
+    $deliver = true; 
+    $price = '26'; // string
+    $final_price = $price + true; // true = 1 = 27
+    $check = '0';
+    $is_valid = (bool)$check; // false
 ?>
 <!DOCTYPE html>
 <html lang="en">

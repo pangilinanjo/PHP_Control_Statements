@@ -1,9 +1,9 @@
 <?php 
-$name = 'Jorlyn';
-$favorites = ['Roses', 'Tulips', 'Lilies', 'Orchids',
-            'Sunflowers', 'Peonies', 'Daisies', 'Carnations',
-            'Chrysanthemums', 'Marigolds', 'Lavender', 'Hibiscus',
-            'Jasmine', 'Magnolias', 'Camellias'];
+    $name = 'Jorlyn';
+    $favorites = ['Roses', 'Tulips', 'Lilies', 'Orchids',
+                'Sunflowers', 'Peonies', 'Daisies', 'Carnations',
+                'Chrysanthemums', 'Marigolds', 'Lavender', 'Hibiscus',
+                'Jasmine', 'Magnolias', 'Camellias'];
 ?>
 
 <!DOCTYPE html>

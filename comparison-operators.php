@@ -1,9 +1,9 @@
 <?php 
-$item = 'Roses';
-$stock = 30;
-$wanted = 3;
-$deliver = true;
-$can_buy = ($wanted <= $stock) && ($deliver == true);
+    $item = 'Roses';
+    $stock = 30;
+    $wanted = 3;
+    $deliver = true;
+    $can_buy = ($wanted <= $stock) && ($deliver == true);
 ?>
 
 <!DOCTYPE html>
