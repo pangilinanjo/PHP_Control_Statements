@@ -5,19 +5,8 @@
                 'Chrysanthemums', 'Marigolds', 'Lavender', 'Hibiscus',
                 'Jasmine', 'Magnolias', 'Camellias'];
 ?>
-
-<!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <title>Shorthand echo</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css" />
-    </head>
-    <body>
-        <h1>The Flower Store</h1>
-
-        <h2><?= $name;?>, please select the flower you will order:</h2>
+    <?php include 'header.php'; ?>
+    <h2><?= $name;?>, please select the flower you will order:</h2>
         <ul>
             <li><?= $favorites[0]; ?></li>
             <li><?= $favorites[1]; ?></li>
@@ -37,5 +26,4 @@
         </ul> 
         <p>Your order is:
             <?= $favorites[0]; ?>.</p>
-    </body>
-</html>
+    <?php include 'footer.php'; ?>
