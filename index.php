@@ -1,6 +1,6 @@
 <?php 
     $name = 'Jorlyn';
-    $price = '26';
+    $price = 2500;
     $best_sellers = ['Roses', 'Tulips', 'Lilies', 'Daisies', 'Orchids',
                     'Sunflowers', 'Peonies'];
     $greeting = 'Hello';
@@ -38,7 +38,7 @@
     $count = $ordered;
     $loop_output = ""; 
     do {
-        $loop_output .= $count . " bouquets cost $" . ($count * $price) . "<br>";
+        $loop_output .= $count . " bouquets cost ₱" . ($count * $price) . "<br>";
         $count--; 
     } while ($count > 0);
 
@@ -59,7 +59,7 @@
         <p>Among the best-selling flowers, which is the best for you?</p>
         <p>You selected: <?php echo $best_sellers[0]; ?></p>
         <p>Availability: <?= $message ?></p>
-        <p>Price per bouquet: $<?php echo $price; ?> (<?= $price_message ?>)</p>
+        <p>Price per bouquet: ₱<?php echo $price; ?> (<?= $price_message ?>)</p>
         <p><?= $order_message ?></p>
         <p>Special Offer: <?= $offer ?></p>
 
