@@ -25,12 +25,7 @@ $flowerproduct = [
 $tax_rate = 12;
 
 function get_reorder_message(int $stock): string {
-    if ($stock < 10) {
-        return "Yes";
-    }
-    else {
-        return "No";
-    }
+    return ($stock < 10) ? "Yes" : "No";
 }
 
 function get_total_value(float $price, int $quantity): float {
