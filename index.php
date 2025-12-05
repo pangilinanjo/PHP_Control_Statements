@@ -1,6 +1,6 @@
 <?php 
     $name = 'Jorlyn';
-    $price = 2500;
+    $price = 3000;
     $best_sellers = ['Roses', 'Tulips', 'Lilies', 'Daisies', 'Orchids',
                     'Sunflowers', 'Peonies'];
     $greeting = 'Hello';

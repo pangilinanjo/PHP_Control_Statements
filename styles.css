@@ -41,10 +41,10 @@ p {
 }
 
 table {
-  background-color: #850825;
+  background-color: #c73b7c;
   margin: 10px;
   padding: 5px;
-  border: 1px solid #fbccbf;
+  border: 1px solid #fbbfee;
   border-spacing: 0px;
 }
   
@@ -54,8 +54,8 @@ th {
   font-size: 0.75em;
   letter-spacing: 0.2em;
   padding: 5px 10px;
-  background-color: #fbccbf;
-  color: #850825;
+  background-color: #ee6fbd;
+  color: #000000;
 }
   
 td {

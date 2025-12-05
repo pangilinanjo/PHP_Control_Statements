@@ -3,7 +3,7 @@
     $stock = 30;
     $wanted = '3'; 
     $deliver = true; 
-    $price = '2500';
+    $price = '3000';
     $final_price = $price + true; 
     $check = '0';
     $is_valid = (bool)$check;
